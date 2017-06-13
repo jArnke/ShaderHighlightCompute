@@ -26,7 +26,7 @@ syn keyword cgStatement		tex1D tex2D tex3D texRECT texCUBE
 syn keyword cgStatement		tex1Dproj tex2Dproj tex3Dproj texRECTproj texCUBEproj
 " syn keyword cgStatement		tex1D_proj tex2D_proj tex3D_proj texRECT_proj texCUBE_proj
 " syn keyword cgStatement		tex1D_bias tex2D_bias tex3D_bias texRECT_bias texCUBE_bias
-syn keyword cgStatement		offsettex2D offsettexRECT offsettex2DScaleBias offsettexRECTScaleBias 
+syn keyword cgStatement		offsettex2D offsettexRECT offsettex2DScaleBias offsettexRECTScaleBias
 syn keyword cgStatement		tex1D_dp3 tex2D_dp3x2 texRECT_dp3x2
 syn keyword cgStatement		tex3D_dp3x3 texCUBE_dp3x3 tex_dp3x2_depth
 syn keyword cgStatement		texCUBE_reflect_dp3x3 texCUBE_reflect_eye_dp3x3
@@ -59,7 +59,6 @@ syn keyword cgType		float4x2 float4x3 float4x4
 syn keyword cgType		sampler1D sampler2D sampler3D samplerRECT samplerCUBE
 " compile-time special types
 syn keyword cgType		cint cfloat
-
 " how to disable switch continue case default int break goto double enum union
 
 " syn keyword cgSamplerArg	MinFilter MagFilter MipFilter
@@ -78,6 +77,12 @@ syn match cgSwizzle		/\.[stqr]\{1,4\}/
 syn match cgSwizzle		/\.\(_m[0-3]\{2}\)\{1,4\}/
 syn match cgSwizzle		/\.\(_[1-4]\{2}\)\{1,4\}/
 syn match cgSemantic		/:\s*[A-Z]\w*/
+syn match cgSwizzle		/\"LightMode\"/
+syn match cgSwizzle		/\"ForwardBase\"/
+syn match cgSwizzle		/\"RenderType\"/
+syn match cgSwizzle		/\"Opaque\"/
+syn match cgSwizzle		/\"Queue\"/
+syn match cgSwizzle		/\"Geometry\"/
 syn keyword cgStorageClass	in out inout uniform packed const
 syn keyword cgNumber	NPOS
 "syn keyword cgBoolean	true false none
