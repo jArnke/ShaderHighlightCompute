@@ -28,7 +28,7 @@ NeoBundleInstall
 ##TODO
 
 ##效果图
-[截图](http://git.oschina.net/uploads/images/2015/0627/191658_07124fff_5138.png,"screen capture")
+![截图](http://git.oschina.net/uploads/images/2015/0627/191658_07124fff_5138.png)
 
 ##PS
 原来的作者在```http://git.oschina.net/qiuchangjie/ShaderHighLight```更新了 但是vim上没有更新 我只是拉过来而已
