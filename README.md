@@ -4,7 +4,7 @@
 
 ## Install
 ```vim
-Plug 'kalvinpearce/ShaderHighLight'
+Plug 'kalvinpearce/ShaderHighlight'
 ```
 
 ## Note
