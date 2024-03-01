@@ -4,7 +4,7 @@
 
 ## Install
 ```vim
-Plug 'jArnke/ShaderHighlight'
+Plug 'jArnke/ShaderHighlightCompute'
 ```
 
 ## Note
