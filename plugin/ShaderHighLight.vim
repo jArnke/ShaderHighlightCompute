@@ -6,5 +6,5 @@
 
 autocmd BufNewFile,BufRead *.cg,*.cginc set filetype=cg
 autocmd BufNewFile,BufRead *.hlsl,*.hlslc,*.hlslh,*.hlsl,*.compute set filetype=hlsl
-autocmd! BufNewFile,BufRead *.glsl,*.geom,*.vert,*.frag,*.gsh,*.vsh,*.fsh,*.vs,*.fs set filetype=glsl
+autocmd BufNewFile,BufRead *.glsl,*.geom,*.vert,*.frag,*.gsh,*.vsh,*.fsh,*.vs,*.fs set filetype=glsl
 autocmd BufNewFile,BufRead *.shader set filetype=shaderlab
